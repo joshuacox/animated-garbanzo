@@ -1,8 +1,3 @@
-import '@/app/ui/global.css';
-import { inter } from '@/app/ui/fonts';
-import { fustat } from '@/app/ui/fonts';
-import { dancingScript } from '@/app/ui/fonts';
- 
 export default function RootLayout({
   children,
 }: {
@@ -10,7 +5,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${dancingScript.className} antialiased`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
